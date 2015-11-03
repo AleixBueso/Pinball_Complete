@@ -1,0 +1,58 @@
+﻿Build started 03/11/2015 23:33:35.
+     1>Project "C:\Users\usuario\Documents\GitHub\Pinball_Final\SDL Game.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Archivos de programa\Visual Studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Application.cpp log.cpp Main.cpp ModuleAudio.cpp ModuleInput.cpp ModulePhysics.cpp ModulePlayer.cpp ModuleRender.cpp ModuleSceneIntro.cpp ModuleTextures.cpp ModuleWindow.cpp
+         ModuleWindow.cpp
+     1>c:\users\usuario\documents\github\pinball_final\modulewindow.cpp(32): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\usuario\documents\github\pinball_final\modulewindow.cpp(33): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+         ModuleTextures.cpp
+         ModuleSceneIntro.cpp
+     1>c:\users\usuario\documents\github\pinball_final\modulesceneintro.cpp(200): warning C4244: '=' : conversion from 'Uint32' to 'float', possible loss of data
+     1>c:\users\usuario\documents\github\pinball_final\modulesceneintro.cpp(211): warning C4244: '=' : conversion from 'Uint32' to 'float', possible loss of data
+     1>c:\users\usuario\documents\github\pinball_final\modulesceneintro.cpp(219): warning C4244: '=' : conversion from 'Uint32' to 'float', possible loss of data
+     1>c:\users\usuario\documents\github\pinball_final\modulesceneintro.cpp(227): warning C4244: '=' : conversion from 'Uint32' to 'float', possible loss of data
+     1>c:\users\usuario\documents\github\pinball_final\modulesceneintro.cpp(238): warning C4244: '=' : conversion from 'Uint32' to 'float', possible loss of data
+     1>c:\users\usuario\documents\github\pinball_final\modulesceneintro.cpp(248): warning C4244: '=' : conversion from 'Uint32' to 'float', possible loss of data
+     1>c:\users\usuario\documents\github\pinball_final\modulesceneintro.cpp(256): warning C4244: '=' : conversion from 'Uint32' to 'float', possible loss of data
+         ModuleRender.cpp
+     1>c:\users\usuario\documents\github\pinball_final\modulerender.cpp(97): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\usuario\documents\github\pinball_final\modulerender.cpp(98): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\usuario\documents\github\pinball_final\modulerender.cpp(110): warning C4244: '*=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\usuario\documents\github\pinball_final\modulerender.cpp(111): warning C4244: '*=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\usuario\documents\github\pinball_final\modulerender.cpp(144): warning C4244: '*=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\usuario\documents\github\pinball_final\modulerender.cpp(145): warning C4244: '*=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\usuario\documents\github\pinball_final\modulerender.cpp(169): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\usuario\documents\github\pinball_final\modulerender.cpp(171): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         ModulePlayer.cpp
+         ModulePhysics.cpp
+     1>c:\users\usuario\documents\github\pinball_final\modulephysics.cpp(102): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\usuario\documents\github\pinball_final\modulephysics.cpp(103): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\usuario\documents\github\pinball_final\modulephysics.cpp(168): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\usuario\documents\github\pinball_final\modulephysics.cpp(203): warning C4018: '<' : signed/unsigned mismatch
+         ModuleInput.cpp
+     1>c:\users\usuario\documents\github\pinball_final\moduleinput.cpp(66): warning C4244: '/=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\usuario\documents\github\pinball_final\moduleinput.cpp(67): warning C4244: '/=' : conversion from 'float' to 'int', possible loss of data
+         ModuleAudio.cpp
+         Main.cpp
+         log.cpp
+         Application.cpp
+         Generating Code...
+       Link:
+         D:\Archivos de programa\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\usuario\Documents\GitHub\Pinball_Final\Debug\2D Physics - class 3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\usuario\Documents\GitHub\Pinball_Final\Debug\2D Physics - class 3.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\usuario\Documents\GitHub\Pinball_Final\Debug\2D Physics - class 3.lib" /MACHINE:X86 Debug\Application.obj
+         Debug\log.obj
+         Debug\Main.obj
+         Debug\ModuleAudio.obj
+         Debug\ModuleInput.obj
+         Debug\ModulePhysics.obj
+         Debug\ModulePlayer.obj
+         Debug\ModuleRender.obj
+         Debug\ModuleSceneIntro.obj
+         Debug\ModuleTextures.obj
+         Debug\ModuleWindow.obj
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+         SDL Game.vcxproj -> C:\Users\usuario\Documents\GitHub\Pinball_Final\Debug\2D Physics - class 3.exe
+     1>Done Building Project "C:\Users\usuario\Documents\GitHub\Pinball_Final\SDL Game.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.34
